@@ -1,0 +1,22 @@
+# Klucze i sekrety (NAJWAŻNIEJSZE)
+credentials.json
+
+# Dane (nie wrzucamy wielkich plików CSV na GitHub)
+churn_data.csv
+
+# Logi Bruina i systemowe
+logs/
+*.log
+
+# Pliki systemowe Mac/Windows
+.DS_Store
+Thumbs.db
+
+# Środowisko Python (jeśli używasz venv)
+venv/
+__pycache__/
+.env
+.bruin.yml
+logs/runs
+logs/*.log
+*.py[cod]

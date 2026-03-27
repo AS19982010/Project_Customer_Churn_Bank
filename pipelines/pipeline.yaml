@@ -1,0 +1,2 @@
+name: "churn_analysis"
+schedule: "@daily" # Bruin tego wymaga, by uznać folder za pipeline

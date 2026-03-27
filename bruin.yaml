@@ -1,0 +1,12 @@
+version: "1"
+name: "projekt_zoomcamp"
+
+pipelines:
+  - path: "pipelines"
+
+environments:
+  default:
+    connections:
+      google_cloud_platform:
+        - project_id: "kestrasanbox"
+          service_account_file: "./credentials.json"
