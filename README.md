@@ -172,7 +172,9 @@ To understand the financial context of customer churn, I introduced three key **
 #### 1. Salary Difference
 * **Definition:** The absolute difference between the customer's monthly salary and the average monthly salary in their respective country.
 * **Formula:**
-    $$\text{salary\_difference} = \text{customer\_monthly\_salary} - \text{country\_avg\_salary}$$
+```text  
+salary_difference=customer_monthly_salary - country_avg_salary 
+``` 
 * **Purpose:** It identifies whether a customer's income is above or below the national average. A positive value indicates a "wealthier" profile relative to the local economy.
 
 #### 2. Salary Status (Above/Below Market)
